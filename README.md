@@ -18,6 +18,10 @@ To build a Smart Classroom System that:
 - Training samples: 60,000  
 - Testing samples: 10,000  
 - Each image: 28×28 grayscale handwritten digit
+- The MNIST dataset files used in this project can be downloaded here:
+
+- [MNIST_train.csv](https://docs.google.com/spreadsheets/d/1aOZXH_mpK5yOApDcEC3BunVp5jwT0ZKw/edit?usp=drive_link&ouid=115813122716964597664&rtpof=true&sd=true)
+- [MNIST_test.csv](https://docs.google.com/spreadsheets/d/1tCm8YnSLx6MCGpmuiHwr4KlndRwtxA6e/edit?usp=drive_link&ouid=115813122716964597664&rtpof=true&sd=true)
 
 ---
 
@@ -64,11 +68,10 @@ Benefits:
 ---
 
 ## 📎 Author
-  
+Maryam Jafarian  
 Data Scientist in ITC  
 
 ---
 
 ## 💬 Citation / Reference
 MNIST Dataset — Yann LeCun, et al.  
-Project developed for academic presentation on Smart Classroom ML Applications.
