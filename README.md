@@ -1,2 +1,74 @@
-# SmartClassroom-ID-Recognition
-Smart Classroom – Handwritten Student ID Recognition using MNIST Dataset A machine learning project that recognizes handwritten student IDs using Gaussian Naive Bayes, Gaussian Bayes, and KNN models. Designed as a smart classroom solution to automate student identification.
+
+# 🧠 Smart Classroom: Handwritten Student ID Recognition
+
+This project demonstrates how machine learning can be applied in education to automatically recognize handwritten student ID numbers, helping teachers manage classrooms efficiently.
+
+---
+
+## 🎯 Objective
+To build a Smart Classroom System that:
+- Automatically identifies students by their handwritten ID.
+- Displays the recognized ID on a teacher dashboard.
+- Reduces manual attendance work and improves classroom interaction.
+
+---
+
+## 🧩 Dataset
+- MNIST Handwritten Digit Dataset
+- Training samples: 60,000  
+- Testing samples: 10,000  
+- Each image: 28×28 grayscale handwritten digit
+
+---
+
+## ⚙️ Models Implemented
+1. Gaussian Naive Bayes – assumes feature independence, very fast but lower accuracy.  
+2. Non-Naive Gaussian Bayes – includes feature variance and covariance, higher accuracy.  
+3. K-Nearest Neighbors (KNN) – classifies digits based on distance, performs best when tuned.
+
+---
+
+## 🔧 Preprocessing & Tuning
+- Scaling: Normalized pixel values for better model convergence.  
+- Epsilon tuning: Improved Gaussian model accuracy up to 94%.  
+- Blurring: Reduced noise and enhanced KNN performance to 96%.  
+
+---
+
+## 📊 Results
+| Model | Accuracy (%) | Notes |
+|--------|---------------|-------|
+| Gaussian Naive Bayes | 77 | After scaling |
+| Non-Naive Gaussian Bayes | 94 | After epsilon tuning |
+| KNN | 95–96 | After tuning & blurring |
+
+---
+
+## 🚀 Tools & Libraries
+- Python, NumPy, Pandas, Matplotlib
+- Google Colab for training and testing
+- MNIST Dataset (CSV format from Kaggle)
+
+---
+
+## 🧠 Use Case: Smart Classroom
+Students write their ID numbers →  
+Machine learning model recognizes digits →  
+Teacher dashboard displays each student's ID in real-time.
+
+Benefits:
+- ⏱️ Saves time by automating attendance  
+- 👩‍🏫 Real-time feedback for teachers  
+- 💡 Demonstrates how ML enhances education
+
+---
+
+## 📎 Author
+  
+Data Scientist in ITC  
+
+---
+
+## 💬 Citation / Reference
+MNIST Dataset — Yann LeCun, et al.  
+Project developed for academic presentation on Smart Classroom ML Applications.
